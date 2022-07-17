@@ -111,6 +111,25 @@
 //     break;}
 // else{console.log(coupon +' yang harus anda bayar')}
 
-//for and while
-for (var i=1; i<=5; i++)
-{console.log(i)}
+// Codingan Couch Vincent
+
+var pembelian = 50000;
+var kupon ="freeongkir";
+
+switch(kupon.toLowerCase())
+   { case 'freeongkir':
+        if(pembelian >= 50000)
+        {var total = pembelian*0.9
+        console.log("Total pembelian anda" + total)}
+        else if (pembelian <50000 && pembelian >=30000)
+        {var total = pembelian*0.95
+        console.log("Total Pembelian anda" + total)}
+        else if (pembelian <30000)
+        {console.log("Total Pembelian anda" + pembelian)}
+    case 'free15%':
+        if (pembelian >30000)
+        {var total = pembelian*0.85
+        console.log("Pembelian anda" +total)}
+        else {console.log(pembelian)}
+}
+
