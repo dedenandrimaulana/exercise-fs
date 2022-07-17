@@ -49,7 +49,39 @@
 // Genap itu habis dibagi 2
 // modulus % => sisa bagi
 
-var bilangan = -99;
-if (bilangan % 2 === 0) {console.log(bilangan + ' Angka Genap')}
-else if (bilangan % 2 === 1) {console.log(bilangan + ' Angka Ganjil')}
-else {console.log('Jangan masukan angka minus(-)')}
+// var bilangan = -99;
+// if (bilangan % 2 === 0) { console.log(bilangan + ' Angka Genap') }
+// else if (bilangan % 2 === 1) { console.log(bilangan + ' Angka Ganjil') }
+// else { console.log('Jangan masukan angka minus(-)') }
+
+var minuman = '';
+
+switch (minuman.toLowerCase()){
+    case 'sweet tea':
+        console.log('You Choose Sweet Tea, Thanks')
+        break;
+    case 'plain tea':
+        console.log('You Choose Plain Tea, Thanks')
+        break;
+    case 'boba':
+        console.log('You Choose Boba, Thanks')
+        break;
+    case 'milk coffe':
+        console.log('You Choose Milk Coffe, Thanks')
+        break;
+    case 'choco ice':
+        console.log('You Choose Choco Ice, Thanks')
+        break;
+    case '':
+        console.log('Input Minuman')
+        break;
+    default:
+        console.log('Minuman is not Defined') 
+}
+
+// Atau bisa juga 
+// default:
+//     if (minuman === "")
+//    {console.log('Input Minuman')}
+//     else {console.log('Minuman is not Defined')}
+
