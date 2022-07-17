@@ -15,7 +15,7 @@
 //     console.log('Usia selain 10 dan 12')
 // }
 
-var minuman = 'TEH';
+var minuman = 'Jus';
 // .tolowercase ==> Fungsi ini untuk membuat huruf jadi kecil
 
 switch(minuman.toLowerCase()){
