@@ -113,8 +113,8 @@
 
 // Codingan Couch Vincent
 
-var pembelian = 50000;
-var kupon ="freeongkir";
+var pembelian = 10000;
+var kupon ="free15%";
 
 switch(kupon.toLowerCase())
    { case 'freeongkir':
@@ -126,10 +126,12 @@ switch(kupon.toLowerCase())
         console.log("Total Pembelian anda" + total)}
         else if (pembelian <30000)
         {console.log("Total Pembelian anda" + pembelian)}
+    break;
     case 'free15%':
-        if (pembelian >30000)
+        if (pembelian >=30000)
         {var total = pembelian*0.85
-        console.log("Pembelian anda" +total)}
-        else {console.log(pembelian)}
+        console.log("Pembelian anda" + total)}
+        else {console.log("Pembelian anda" + pembelian)}
+        break;
 }
 
