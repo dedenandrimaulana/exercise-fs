@@ -54,30 +54,30 @@
 // else if (bilangan % 2 === 1) { console.log(bilangan + ' Angka Ganjil') }
 // else { console.log('Jangan masukan angka minus(-)') }
 
-var minuman = '';
+// var minuman = '';
 
-switch (minuman.toLowerCase()){
-    case 'sweet tea':
-        console.log('You Choose Sweet Tea, Thanks')
-        break;
-    case 'plain tea':
-        console.log('You Choose Plain Tea, Thanks')
-        break;
-    case 'boba':
-        console.log('You Choose Boba, Thanks')
-        break;
-    case 'milk coffe':
-        console.log('You Choose Milk Coffe, Thanks')
-        break;
-    case 'choco ice':
-        console.log('You Choose Choco Ice, Thanks')
-        break;
-    case '':
-        console.log('Input Minuman')
-        break;
-    default:
-        console.log('Minuman is not Defined') 
-}
+// switch (minuman.toLowerCase()){
+//     case 'sweet tea':
+//         console.log('You Choose Sweet Tea, Thanks')
+//         break;
+//     case 'plain tea':
+//         console.log('You Choose Plain Tea, Thanks')
+//         break;
+//     case 'boba':
+//         console.log('You Choose Boba, Thanks')
+//         break;
+//     case 'milk coffe':
+//         console.log('You Choose Milk Coffe, Thanks')
+//         break;
+//     case 'choco ice':
+//         console.log('You Choose Choco Ice, Thanks')
+//         break;
+//     case '':
+//         console.log('Input Minuman')
+//         break;
+//     default:
+//         console.log('Minuman is not Defined') 
+// }
 
 // Atau bisa juga 
 // default:
@@ -85,3 +85,32 @@ switch (minuman.toLowerCase()){
 //    {console.log('Input Minuman')}
 //     else {console.log('Minuman is not Defined')}
 
+
+// var coupon = 500000;
+// var ongkir = 'freeongkir';
+
+// if (coupon >= 50000)
+// switch (ongkir.toLowerCase())
+//     {case 'freeongkir':
+//     console.log(coupon*0.9 + ' Nilai yang harus anda bayar')
+//     break;}
+// else if(coupon <50000 && coupon >=30000)
+// switch(ongkir.toLowerCase())
+//     {case 'freeongkir':
+//     console.log(coupon*0.95 + ' Nilai yang harus anda bayar')
+//     break;}
+// else if (coupon <30000)
+//     switch(ongkir.toLowerCase())
+//     {case 'freeongkir':
+//     console.log(coupon*0.975 + ' Nilai yang harus anda bayar')
+//     break;}
+// if (coupon >= 30000)
+// switch (ongkir.toLowerCase())
+//     {case 'free15%':
+//     console.log(coupon*0.85 +' yang harus anda bayar')
+//     break;}
+// else{console.log(coupon +' yang harus anda bayar')}
+
+//for and while
+for (var i=1; i<=5; i++)
+{console.log(i)}
